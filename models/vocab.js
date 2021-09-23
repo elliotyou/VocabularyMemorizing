@@ -1,4 +1,7 @@
 'use strict';
+//此檔案是在執行下方指令時自動產生
+//$ npx sequelize model:generate --name Vocab --attributes name:string,part:string,...
+
 const {
   Model
 } = require('sequelize');

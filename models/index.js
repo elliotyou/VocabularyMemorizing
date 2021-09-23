@@ -1,4 +1,6 @@
 'use strict';
+//此檔案為執行下方指令時自動產生
+// $ npx sequelize init
 
 const fs = require('fs');
 const path = require('path');
