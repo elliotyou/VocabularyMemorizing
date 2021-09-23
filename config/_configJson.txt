@@ -1,0 +1,29 @@
+//duplicated config/config.json, in order to comment 
+
+//config.json 檔案是在執行下方 command 的時候自動產生
+//$ npx sequelize init
+//參考 https://lighthouse.alphacamp.co/courses/43/units/6954
+
+{
+  "development": {
+    "username": "root",
+    "password": "password",     //我手動修改
+    "database": "vocabulary_memorizing",        //我手動修改，為了跟我建的 db 搭配
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
