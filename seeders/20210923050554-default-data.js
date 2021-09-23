@@ -1,19 +1,21 @@
 'use strict';
 
+const vocabularyList = require('./WordTestSample_v3.json').results
+
+function isInteger(value) {
+  return /^\d+$/.test(value);
+}
+
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    return queryInterface.bulkInsert('Vocabs', [{
-      name: 'octane',
-      part: '(n)[U]',
-      pronunciation: '/ˈɑːk.teɪn/',
-      note: '--',
-      english: 'a chemical in petrol',
-      chinese: '辛烷',
-      example1: '--',
-      example2: '--',
-      createdAt: new Date(),
-      updatedAt: new Date(),
-    }], {})
+    return queryInterface.bulkInsert('Vocabs',
+      vocabularyList.map(vocab => ({
+        ...vocab,
+        level: isInteger(vocab.level) ? Number(vocab.level) : 0,
+        ugly: isInteger(vocab.level) ? Number(vocab.level) : 0,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      })), {})
   },
 
   down: async (queryInterface, Sequelize) => {

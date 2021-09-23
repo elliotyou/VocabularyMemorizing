@@ -1,4 +1,7 @@
 'use strict';
+
+const { sequelize } = require("../models");
+
 //這支檔案是執行下方這串字的時候自動產生 
 //$ npx sequelize model:generate --name Vocab --attributes name:string,part:string,...
 //產生後再做一些微調
@@ -14,43 +17,55 @@ module.exports = {
       },
       name: {
         type: Sequelize.STRING,
-        allowNull: false   //我手動加入，不允許留空，因為即使空白我會自己補 --
+        allowNull: false    //自己手動加入
       },
       part: {
         type: Sequelize.STRING,
-        allowNull: false   //我手動加入
+        allowNull: false    //自己手動加入
       },
       pronunciation: {
         type: Sequelize.STRING,
-        allowNull: false   //我手動加入
+        allowNull: false    //自己手動加入
       },
       note: {
         type: Sequelize.STRING,
-        allowNull: false   //我手動加入
+        allowNull: false    //自己手動加入
       },
       english: {
-        type: Sequelize.STRING,
-        allowNull: false   //我手動加入
+        type: Sequelize.TEXT,
+        allowNull: false    //自己手動加入
       },
       chinese: {
-        type: Sequelize.STRING,
-        allowNull: false   //我手動加入
+        type: Sequelize.TEXT,
+        allowNull: false    //自己手動加入
       },
       example1: {
-        type: Sequelize.STRING,
-        allowNull: false   //我手動加入
+        type: Sequelize.TEXT,
+        allowNull: false    //自己手動加入
       },
       example2: {
-        type: Sequelize.STRING,
-        allowNull: false   //我手動加入
+        type: Sequelize.TEXT,
+        allowNull: false    //自己手動加入
+      },
+      lastSeen: {
+        type: Sequelize.DATE,
+        allowNull: false    //自己手動加入
+      },
+      level: {
+        type: Sequelize.INTEGER,
+        allowNull: false    //自己手動加入
+      },
+      ugly: {
+        type: Sequelize.INTEGER,
+        allowNull: false    //自己手動加入
       },
       createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        allowNull: false    //自己手動加入
       },
       updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        allowNull: false    //自己手動加入
       }
     });
   },

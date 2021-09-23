@@ -1,0 +1,69 @@
+{
+	"results": [
+		{
+			"name": "blatant",
+			"part": "(a)",
+			"pronunciation": "--",
+			"note": "--",
+			"english": "very obvious and intentional, when this is a bad thing",
+			"chinese": "明目張膽的，公然的",
+			"example1": "a blatant lie  彌天大謊",
+			"example2": "The whole episode was a blatant attempt to gain publicity.  整個事件完全是旨在宣傳的露骨炒作。",
+			"lastSeen": "2021-08-06",
+			"level": "11",
+			"ugly": "--"
+		},
+		{
+			"name": "intentional",
+			"part": "(a)",
+			"pronunciation": "--",
+			"note": "--",
+			"english": "planned or intended",
+			"chinese": "有意的，故意的",
+			"example1": "Did you leave his name out by accident or was it intentional? 你漏掉了他的名字，是無意的還是有意的？",
+			"example2": "--",
+			"lastSeen": "2021-07-15",
+			"level": "11",
+			"ugly": "1"
+		},
+		{
+			"name": "smash",
+			"part": "(v)",
+			"pronunciation": "--",
+			"note": "(BREAK NOISILY)",
+			"english": "to cause something to break noisily into a lot of small pieces",
+			"chinese": "打碎，摔碎",
+			"example1": "Rioters ran through the city, smashing windows and looting shops.  暴動者穿過市中心，砸碎商店櫥窗，掠劫店鋪裡的東西。",
+			"example2": "She dropped her cup and watched it smash to pieces/to smithereens on the stone floor.  她掉了杯子，看著它在石地板上摔得粉碎。",
+			"lastSeen": "2021-08-30",
+			"level": "11",
+			"ugly": "--"
+		},
+		{
+			"name": "machete",
+			"part": "(n)",
+			"pronunciation": "--",
+			"note": "--",
+			"english": "a large knife with a wide blade, used for cutting trees and plants or as a weapon",
+			"chinese": "大砍刀（用以砍伐或充當武器）",
+			"example1": "--",
+			"example2": "--",
+			"lastSeen": "2021-08-24",
+			"level": "11",
+			"ugly": "--"
+		},
+		{
+			"name": "burst",
+			"part": "(v)",
+			"pronunciation": "burst/burst/burst",
+			"note": "--",
+			"english": "to break open or apart suddenly, or to make something do this",
+			"chinese": "（使）迸裂；（使）爆炸",
+			"example1": "I hate it when balloons burst. 我討厭氣球突然破的時候。",
+			"example2": "Suddenly the door burst open (= opened suddenly and forcefully) and police officers rushed in. 門突然被撞開了，員警衝了進來。",
+			"lastSeen": "2021-08-30",
+			"level": "9",
+			"ugly": "4"
+		}
+	]
+}
